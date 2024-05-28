@@ -146,3 +146,13 @@ img {
         padding-right: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2rem; /* Smaller title font size on small screens */
+    }
+
+    .about-content {
+        font-size: 1rem; /* Smaller content font size on small screens */
+    }
+}
