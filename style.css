@@ -43,3 +43,15 @@
     background-color: red;
     color: white;
 }
+
+
+/*H1 intro edit here*/
+.intro-section {
+    padding: 200px;
+    text-align: center;
+}
+.intro {
+    font-size: 2em;
+    color: white;
+    margin: 0;
+}
