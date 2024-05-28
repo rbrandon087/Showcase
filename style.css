@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+.main-title {
+    color: aliceblue;
+}
+
+.nav-click {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: aliceblue;
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*Color change to the hover*/
+.nav-container a:hover {
+    background-color: white;
+    color: aqua;
+    border-radius: 4px;
+}
+/*Color change to the active current link user clicks*/
+.nav-container a.active {
+    background-color: red;
+    color: white;
+}
