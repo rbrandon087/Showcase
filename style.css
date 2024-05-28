@@ -72,3 +72,18 @@ img {
     margin-right: 10px;
     
 }
+/*About section here*/
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 250px;
+}
+.about-content {
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 100%;
+    flex: 1;
+    padding-right: 20px;
+    color: #f2f2f2;
+}
