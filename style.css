@@ -70,7 +70,7 @@
     margin: 0 0 20px 0;
 }
 
-img {
+.social-img {
     width: 35px;
     height: auto;
     margin-right: 10px;
@@ -78,10 +78,10 @@ img {
 
 /* About section here */
 .about-section {
- margin-top: 65px;
+    margin-top: 65px;
     padding: 50px 20px;
     font-family: 'Arial', sans-serif;
-    color: #333; 
+    color: #333;
 }
 
 .about-title {
@@ -93,47 +93,75 @@ img {
 }
 
 .about-content {
-    max-width: 800px; 
-    margin: 0 auto; 
-    line-height: 1.6; 
-    font-size: 1.1rem; 
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
     color: white;
-}
-.about-title {
-    color: white;
-}
-
-/*second section here!*/
-.showcase-section {
-    padding: 50px 20px;
-    margin-top: 30%;
-}
-.showcase-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 20px;
-    font-weight: bold;
-    color: white;
-}
-.showcase-container {
- 
-}
-
-.showcase-item {
-  
-}
-
-.showcase-item, .valley, .pong {
-    max-width: 10px;
-    border-radius: 10px;
-}
-
-.showcase-item h3 {
-    margin: 10px 0 10px 0;
-}
-
-.grid-item p {
-    color: rgba(255, 255, 255, 0.7);
 }
 
 /* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .intro-section {
+        padding: 100px 20px;
+    }
+
+    .intro {
+        font-size: 2.5em;
+    }
+
+    .h3-intro {
+        font-size: 1.5em;
+    }
+
+    .p-intro {
+        font-size: 1em;
+    }
+
+    .nav-click {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-section {
+        padding: 80px 10px;
+    }
+
+    .intro {
+        font-size: 2em;
+    }
+
+    .h3-intro {
+        font-size: 1.2em;
+    }
+
+    .p-intro {
+        font-size: 0.9em;
+    }
+
+    .nav-click {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .about-title {
+        font-size: 1.5rem;
+    }
+
+    .about-content {
+        font-size: 0.9rem;
+    }
+}

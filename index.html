@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <title>My Showcase!</title>
 </head>
 <body>
@@ -17,8 +18,8 @@
   <h1 class="intro" id=""home>Brandon Zavaleta</h1>
   <h3 class="h3-intro">Software Engineer<h3/>
     <p class="p-intro">I build Server Side and Client Side applications</p>
-    <a class="social-link"href="https://github.com/rbrandon087"><img src="./assets/github-mark.png"/></a>
-    <a href="https://www.linkedin.com/in/brannzavaleta11/"><img src="./assets/LI-In-Bug.png"/></a>
+    <a class="social-link"href="https://github.com/rbrandon087"><img src="./assets/github-mark.png" class="social-img"/></a>
+    <a href="https://www.linkedin.com/in/brannzavaleta11/"><img src="./assets/LI-In-Bug.png" class="social-img"/></a>
 </section>
 <!--About section here-->
 <section class="about-section" id="about">
@@ -30,21 +31,50 @@
     </div>
 </section>
 <section class="showcase-section" id="showcase">
-    <h3 class="showcase-title">My Projects</h3>
-    <div class="showcase-container">
-        <div class="showcase-item">
-            <img class="valley" src="" alt=""/>
-            <h3>Valley Security</h3>
-            <p>some inffo</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <div class="card">
+            <img src="./assets/valley.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
         </div>
     </div>
-    <div class="showcase-item">
-        <img class="pong" src="" alt=""/>
-        <h3>Valley Security</h3>
-        <p>some inffo</p>
+    <div class="col">
+        <div class="card">
+            <img src="./assets/pong.JPG" class="showcase-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="..." class="showcase-image" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
     </div>
 </div>
-
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
 </html>
